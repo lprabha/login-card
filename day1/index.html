@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="/day1/style.css">
+    <title>home page</title>
+    <style>
+      .btn-login{
+        display: block;
+        background-color: #F39E3A;
+        color: #ffffff;
+        border: 0 transparent;
+        width: 350px;
+        padding: 18px 20px;
+        border-radius: 5px;
+        margin-top: 30px;
+      }
+      .section-login{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+
+      }
+      label {
+  display: block;
+  margin-bottom: 15px;
+}
+input {
+  padding: 15px 20px;
+}
+.form-item{
+  margin-top: 15px;
+  
+}
+.form-item:last-child{
+  margin-top: 10px;
+  
+}
+
+    </style>
+  </head>
+  <body>
+    <section class="section section-login">
+        <div class="card-item">
+          <div class="item-image">
+            <img src="/day1/images/logo.png" alt="user image">
+          </div>
+          <div class="item-content">
+            <h4>Welcome Back</h4>
+            <p>Start exploring various hottest news topics around the world with us.</p>
+
+            <form action="#" method="get" class="login-form">
+              <div class="form-item form-email">
+                <label for="email">Email Address </label>
+                <input type="text" name="email" id="email" required />
+              </div>
+              <div class="form-item form-password">
+                <label for="password">Password </label>
+                <input type="password" name="password" id="password" required />
+              </div>
+              <div class="form-item form-button">
+                <input type="submit" value="Login" class="btn-login"/>
+              </div>
+            </form>
+            <p>Or Sign in With</p>
+            <a href="#"><img src="/day1/images/fb-icon.svg" alt="Facebook" width="40" height="40">Facebook</a>
+            <a href="#"><img src="/day1/images/google-icon.svg" alt="Company Logo" width="40" height="40">google</a>
+            <p>Dont have an account? <a href="#">Sign up</a></p>
+
+            
+          </div>
+        </div>
+        
+    </section>
+  </body>  
+</html>
